@@ -2,6 +2,7 @@ schema_version: 1
 
 context:
   version: "0.4.0"
+  python_min: "3.10"
 
 package:
   name: vmex
@@ -12,7 +13,7 @@ source:
   sha256: af29c0d708634ac87e8654dcfb0f96831bc401feed045c3fb434b39f71e68510
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -66,5 +67,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - rogeriojorge
     - matthewfeickert
     - RKHashmani
