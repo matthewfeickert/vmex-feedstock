@@ -32,12 +32,13 @@ requirements:
     - numpy
     - jax
     - jaxlib
-    - scipy
+    - scipy >=1.15.0
     - netcdf4
     - matplotlib-base
     - booz-xform-jax
     - solvax >=0.8.8
     - packaging
+    - filelock
     # python < 3.11
     - tomli
 
