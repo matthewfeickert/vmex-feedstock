@@ -36,7 +36,7 @@ requirements:
     - netcdf4
     - matplotlib-base
     - booz-xform-jax
-    - solvax >=0.8.8
+    - solvax >=0.20.0
     - packaging
     - filelock
     # python < 3.11
